@@ -16,7 +16,7 @@ A marco keyboard that I made because why not - its useful.
 
 ## Instructions
 1. Wire everything together: [Schematic](https://wokwi.com/projects/451502553259884545)
-2. Flash the `.uf2` file in this repo to the pico.
+2. Flash the `.uf2` file in this repo to the pico. (taken from https://github.com/erdemarslan/hid-keyboard-micropython)
 3. Save all the files from `src` folder onto pico.
 4. You're done.
 
