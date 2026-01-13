@@ -239,9 +239,6 @@ commands_menu = [
 
 passwords_menu = [
     ("<- Back", "back"),
-    ("School", "SgDwa!3u\n"),
-    ("Server ivangar", "s3rveh0m3!2010J\n"),
-    ("Server viewer", "mybd@y150fJ!\n"),
     ("Test1", "abs0lut3_cin3m@\n"),
     ("Test2", "123456password_pakistan\n")
 ]
@@ -395,3 +392,4 @@ while True:
     check_btn_pressed()
 
     time.sleep_ms(1)
+
