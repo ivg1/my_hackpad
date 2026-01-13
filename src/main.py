@@ -75,7 +75,6 @@ btn7 = Pin(8, Pin.IN, Pin.PULL_UP)
 btn8 = Pin(9, Pin.IN, Pin.PULL_UP)
 
 btn_cmds = [
-    "ssh -p 6768 ivangar@46.199.193.30\n",
     (Keys.MOD_LEFT_ALT, 0x2B),
     "3",
     "4",
@@ -231,7 +230,6 @@ commands_menu = [
     ("<- Back", "back"),
     ("Open VSCode", "c"),
     ("Brave browser", "d"),
-    ("Connect server", "connect_server", "ssh -p 6768 ivangar@46.199.193.30\n"),
     ("{unassigned}", " "),
     ("{unassigned}", " "),
     ("{unassigned}", " "),
@@ -392,4 +390,5 @@ while True:
     check_btn_pressed()
 
     time.sleep_ms(1)
+
 
